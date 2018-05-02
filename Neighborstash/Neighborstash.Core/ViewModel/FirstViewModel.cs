@@ -2,7 +2,7 @@ using MvvmCross.Core.ViewModels;
 
 namespace Neighborstash.Core.ViewModel
 {
-    public class FirstViewModel
+    public class MainViewModel
         : MvxViewModel
     {
         private string _hello = "Welcome to NeighborStasher";
