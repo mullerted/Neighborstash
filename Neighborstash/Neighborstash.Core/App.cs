@@ -18,12 +18,13 @@ namespace Neighborstash.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
+            // Bulk registration (*Service)
             CreatableTypes()
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            //Mvx.RegisterSingleton<IMvxTextProvider>(new ResxTextProvider());
+            //Mvx.RegisterSingleton<IMvxTextProvider>(new ResxTextProvider(String.ResouceManager));
 
             //RegisterAppStart<MainViewModel>();
             RegisterAppStart(new AppStart());

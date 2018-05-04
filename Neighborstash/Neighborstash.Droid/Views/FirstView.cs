@@ -3,10 +3,10 @@ using Android.OS;
 
 namespace Neighborstash.Droid.Views
 {
-    [Activity(Label = "View for FirstViewModel")]
-    public class FirstView : BaseView
+    [Activity(Label = "View for MainViewModel")]
+    public class MainView : BaseView
     {
-        protected override int LayoutResource => Resource.Layout.FirstView;
+        protected override int LayoutResource => Resource.Layout.MainView;
 
         protected override void OnCreate(Bundle bundle)
         {

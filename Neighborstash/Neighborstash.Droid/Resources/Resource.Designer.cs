@@ -4390,7 +4390,7 @@ namespace Neighborstash.Droid
 			public const int design_text_input_password_icon = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int FirstView = 2130968617;
+			public const int MainView = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
 			public const int notification_action = 2130968618;
